@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Introduction = () => {
   return (
     <div className="relative flex items-center justify-center overflow-hidden pt-[102px] max-w-screen-jumbotron w-full">
