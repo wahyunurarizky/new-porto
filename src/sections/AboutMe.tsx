@@ -1,6 +1,10 @@
+import { useApp } from '../context/AppContext'
+
 const AboutMe = () => {
+  const { aboutRef } = useApp()
   return (
     <div
+      ref={aboutRef}
       className="z-20 w-full flex flex-col items-center gap-4 px-4 tablet:px-12 laptop:px-[100px] py-10 tablet:py-20 laptop:py-40 text-white bg-arzky-navy text-center max-w-screen-jumbotron"
       id="experiences"
     >

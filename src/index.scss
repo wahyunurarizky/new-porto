@@ -30,6 +30,10 @@
   );
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   font-family: 'Public Sans', sans-serif;
   display: flex;
