@@ -6,7 +6,7 @@ const Introduction = () => {
   return (
     <div
       ref={introRef}
-      className="relative flex items-center justify-center overflow-hidden pt-[102px] max-w-screen-jumbotron w-full"
+      className="relative flex items-center justify-center overflow-hidden scroll-m-12 pt-[102px] max-w-screen-jumbotron w-full"
     >
       <h1 className="font-passion font-bold text-arzky-navy text-[50px] tracking-[10px] tablet:text-[100px] tablet:tracking-[20px] laptop:tracking-[52.5px] laptop:text-[150px] text-center ">
         SOFTWARE DEVELOPER
