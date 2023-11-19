@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useApp } from '../context/AppContext'
 import { IExp, experiences } from '../assets/data/experiences'
 import { ImFire } from 'react-icons/im'

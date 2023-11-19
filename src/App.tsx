@@ -8,6 +8,7 @@ import Button from './components/Button'
 import { BsArrowUpCircle } from 'react-icons/bs'
 import Experience from './sections/Experience'
 import Connect from './sections/Connect'
+import Project from './sections/Project'
 
 function App() {
   const introRef = useRef<HTMLDivElement>(null)
@@ -33,6 +34,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Experience />
+      <Project />
       <Connect />
       <Button
         className="fixed z-30 bottom-4 right-4"
