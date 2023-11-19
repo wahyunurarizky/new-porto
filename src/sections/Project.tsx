@@ -13,9 +13,13 @@ const ProjectBox = ({ d }: { d: IPorto }) => {
   return (
     <div className="relative rounded-md shadow-v1 overflow-hidden group">
       <img src={d.image} className="object-contain object-center" />
-      <div className="flex opacity-0 w-full h-full absolute left-0 top-0 bg-arzky-primary p-4 flex-col items-center justify-center gap-4 group-hover:opacity-[98%] transition-all duration-300 ease-out">
-        <h2 className="font-passion text-justify text-arzky-navy">{d.name}</h2>
-        <h2 className="font-passion text-justify text-arzky-navy">{d.desc}</h2>
+      <div className="flex opacity-0 w-full h-full absolute left-0 top-0 bg-arzky-primary p-4 flex-col items-center justify-center gap-2 laptop:gap-4 group-hover:opacity-[98%] transition-all duration-300 ease-out">
+        <h2 className="font-passion text-base laptop:text-xl text-justify text-arzky-navy">
+          {d.name}
+        </h2>
+        <h2 className="font-passion text-xs laptop:text-base text-justify text-arzky-navy">
+          {d.desc}
+        </h2>
         <div className="w-full flex justify-center gap-4">
           <a
             target="_blank"
@@ -84,7 +88,7 @@ const Project = () => {
         Project and Portfolio
       </h2>
 
-      <div className="grid w-full justify-center grid-cols-[repeat(auto-fit,150px)] laptop:grid-cols-[repeat(auto-fit,250px)] gap-12">
+      <div className="grid w-full justify-center grid-cols-[repeat(auto-fit,150px)] laptop:grid-cols-[repeat(auto-fit,250px)] gap-4 laptop:gap-12">
         {porto.map((d, i) => (
           <ProjectBox d={d} key={i} />
         ))}
