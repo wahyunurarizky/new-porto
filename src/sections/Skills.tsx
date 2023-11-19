@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <div
-      className="z-20 flex flex-col items-center w-full gap-2 py-10 text-center text-white scroll-m-12 tablet:py-20 laptop:py-40 bg-arzky-bluegrey max-w-screen-jumbotron"
+      className="flex flex-col items-center w-full gap-2 py-10 text-center text-white scroll-m-12 tablet:py-20 laptop:py-40 bg-arzky-bluegrey max-w-screen-jumbotron"
       id="experiences"
       ref={skillsRef}
     >
@@ -38,7 +38,7 @@ const SkillBox = ({ d }: { d: ISkill }) => {
         {d.skills.map((skill, j) => (
           <div
             key={j}
-            className="relative flex items-center justify-center p-5 overflow-hidden bg-white cursor-pointer shadow-v1 aspect-square rounded-xl group"
+            className="relative flex items-center justify-center p-5 overflow-hidden bg-white shadow-v1 aspect-square rounded-xl group"
           >
             <img
               src={skill.image}

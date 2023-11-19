@@ -5,8 +5,7 @@ const AboutMe = () => {
   return (
     <div
       ref={aboutRef}
-      className="z-20 w-full flex flex-col items-center gap-4 px-4 scroll-m-12 tablet:px-12 laptop:px-[100px] py-10 tablet:py-20 laptop:py-40 text-white bg-arzky-navy text-center max-w-screen-jumbotron"
-      id="experiences"
+      className="z-10 w-full flex flex-col items-center gap-4 px-4 scroll-m-12 tablet:px-12 laptop:px-[100px] py-10 tablet:py-20 laptop:py-40 text-white bg-arzky-navy text-center max-w-screen-jumbotron"
     >
       <h2 className="text-[24px]/[26px] tablet:text-[36px] laptop:text-[48px] font-passion">
         Hello, I’m Wahyu.{' '}
