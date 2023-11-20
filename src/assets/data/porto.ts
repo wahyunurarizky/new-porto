@@ -44,5 +44,19 @@ export const porto: IPorto[] = [
     url: 'https://momsdayout.ceresmeses.co.id',
     image: '/porto/porto-ceres.png',
     buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
+  },
+  {
+    name: `Berburu Vespa Kober Mie (2023)`,
+    desc: `sayembara mie kober app to get vespa`,
+    url: 'https://berburuvespa.kobermie.com',
+    image: '/porto/porto-kober.png',
+    buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
+  },
+  {
+    name: `Petkit Indonesia (2023)`,
+    desc: `Create official website for official distributor Petkit from Indonesia`,
+    url: 'https://petkitindonesia.com',
+    image: '/porto/porto-petkit.png',
+    buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
   }
 ]
