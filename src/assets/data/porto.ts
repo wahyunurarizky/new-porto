@@ -9,6 +9,14 @@ export interface IPorto {
 
 export const porto: IPorto[] = [
   {
+    name: 'Pink Shop (2021)',
+    desc: 'Ecommerce website created with codeigniter for assessment in university',
+    github: 'https://github.com/wahyunurarizky/RPLv3',
+    url: 'https://youtu.be/uC5oIRRlWkI',
+    image: '/porto/porto-rplv3.jpg',
+    buildWith: ['Codeigniter', 'Bootstrap', 'My SQL', 'JQuery']
+  },
+  {
     name: 'Puskarier (2021)',
     desc: 'Application for job search and career development for UIN Jakarta alumni',
     url: 'https://puskarier.vercel.app',
