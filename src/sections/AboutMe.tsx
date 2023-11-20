@@ -12,7 +12,7 @@ const AboutMe = () => {
         <span className="whitespace-nowrap">Nice to meet you!</span>
       </h2>
       <p className="text-sm tablet:text-base laptop:text-xl/8">
-        I am software developer with 3+ years of experiences. Born into this
+        I am a software developer with 3+ years of experiences. Born into this
         world to help and make your dreams come true.
       </p>
     </div>
