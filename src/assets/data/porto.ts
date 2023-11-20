@@ -13,7 +13,7 @@ export const porto: IPorto[] = [
     desc: 'Ecommerce website created with codeigniter for assessment in university',
     github: 'https://github.com/wahyunurarizky/RPLv3',
     url: 'https://youtu.be/uC5oIRRlWkI',
-    image: '/porto/porto-rplv3.jpg',
+    image: '/porto/porto-rplv3.png',
     buildWith: ['Codeigniter', 'Bootstrap', 'My SQL', 'JQuery']
   },
   {
