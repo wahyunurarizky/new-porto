@@ -37,5 +37,12 @@ export const porto: IPorto[] = [
     url: 'https://wahyu-coin.vercel.app',
     image: '/porto/porto-wahyu-coin.png',
     buildWith: ['NodeJS', 'ReactJS', 'Redis']
+  },
+  {
+    name: `Mom's Day Out Ceres Meses (2023)`,
+    desc: `create event website for Ceres Meses celebrate Mom's Day Out`,
+    url: 'https://momsdayout.ceresmeses.co.id',
+    image: '/porto/porto-ceres.png',
+    buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
   }
 ]
