@@ -10,7 +10,7 @@ export const experiences: IExp[] = [
   {
     title: 'Web Developer Intern',
     company: 'UIN Jakarta research and publishing center',
-    date: 'Jan - Aug 2023',
+    date: 'Jan - Aug 2021',
     description: `Create an application <a target="_blank" href="https://siapp.uinjkt.ac.id">siapp.uinjkt.ac.id</a> using laravel, this application is used for researchers and lecturers at UIN to submit research proposals and publications.`,
     learns: [
       'Laravel',
