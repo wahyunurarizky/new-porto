@@ -1,10 +1,10 @@
 export interface IPorto {
-  name: string
-  image: string
-  github?: string
-  url?: string
-  desc: string
-  buildWith: string[]
+  name: string;
+  image: string;
+  github?: string;
+  url?: string;
+  desc: string;
+  buildWith: string[];
 }
 
 export const porto: IPorto[] = [
@@ -66,5 +66,47 @@ export const porto: IPorto[] = [
     url: 'https://petkitindonesia.com',
     image: '/porto/porto-petkit.png',
     buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
+  },
+  {
+    name: `Petmart Indonesia (2024)`,
+    desc: `Create official website petmart indonesia`,
+    url: 'https://petmartindonesia.com',
+    image: '/porto/porto-petmart.png',
+    buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
+  },
+  {
+    name: `Holoholo Indonesia (2024)`,
+    desc: `Create official website holoholo Indonesia`,
+    url: 'https://holoholoindonesia.com',
+    image: '/porto/porto-holoholo.png',
+    buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
+  },
+  {
+    name: `Chakolab Indonesia (2024)`,
+    desc: `Create official website chakolab Indonesia`,
+    url: 'https://chakolabindonesia.com',
+    image: '/porto/porto-chakolab.png',
+    buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
+  },
+  {
+    name: `Dicegame Avarik Saga (2024)`,
+    desc: `Developing as Frontend Developer for Dicegame project from Avarik Saga`,
+    url: 'https://avariksaga.com/blessings/dicegame',
+    image: '/porto/porto-petkit.png',
+    buildWith: ['NextJS', 'Tailwind', 'Web3']
+  },
+  {
+    name: `ALBA UIN MALANG (2024)`,
+    desc: `Create official website for ALBA UIN Malang`,
+    url: 'https://alba-uinmalang.com',
+    image: '/porto/porto-alba.png',
+    buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
+  },
+  {
+    name: `Taco  (2024)`,
+    desc: `Revamp website TACO`,
+    url: 'https://taco.id',
+    image: '/porto/porto-taco.png',
+    buildWith: ['Strapi', 'NextJS', 'Tailwind']
   }
-]
+];

@@ -1,10 +1,10 @@
 export interface ISkill {
-  title: string
+  title: string;
   skills: {
-    image: string
-    name: string
-    level: number
-  }[]
+    image: string;
+    name: string;
+    level: number;
+  }[];
 }
 
 const skills: ISkill[] = [
@@ -35,6 +35,11 @@ const skills: ISkill[] = [
         image: '/skills/1/java.png',
         level: 5,
         name: 'JAVA'
+      },
+      {
+        image: '/skills/1/solidity.png',
+        level: 5,
+        name: 'Slidity'
       }
     ]
   },
@@ -253,6 +258,6 @@ const skills: ISkill[] = [
       }
     ]
   }
-]
+];
 
-export default skills
+export default skills;
