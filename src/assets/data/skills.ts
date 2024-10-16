@@ -39,7 +39,7 @@ const skills: ISkill[] = [
       {
         image: '/skills/1/solidity.png',
         level: 5,
-        name: 'Slidity'
+        name: 'Solidity'
       }
     ]
   },
