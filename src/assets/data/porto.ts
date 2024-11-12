@@ -98,7 +98,7 @@ export const porto: IPorto[] = [
   {
     name: `ALBA UIN MALANG (2024)`,
     desc: `Create official website for ALBA UIN Malang`,
-    url: 'https://alba-uinmalang.com',
+    url: 'https://alba.uin-malang.ac.id',
     image: '/porto/porto-alba.png',
     buildWith: ['Laravel', 'Inertia', 'ReactJS', 'Tailwind', 'Redis']
   },
