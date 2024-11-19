@@ -108,5 +108,12 @@ export const porto: IPorto[] = [
     url: 'https://taco.id',
     image: '/porto/porto-taco.png',
     buildWith: ['Strapi', 'NextJS', 'Tailwind']
+  },
+  {
+    name: `Merdeka Siber  (2024)`,
+    desc: `Revamp Merdeka Siber`,
+    url: 'https://merdekasiber.com',
+    image: '/porto/porto-mersi.png',
+    buildWith: ['Wordpress', 'Mailchimp', 'Elementor']
   }
 ];
