@@ -115,5 +115,12 @@ export const porto: IPorto[] = [
     url: 'https://merdekasiber.com',
     image: '/porto/porto-mersi.png',
     buildWith: ['Wordpress', 'Mailchimp', 'Elementor']
+  },
+  {
+    name: 'Rapih.in (2024)',
+    desc: 'ERP system for small business',
+    url: 'https://rapih.in',
+    image: '/porto/porto-rapih.png',
+    buildWith: ['Laravel', 'Architec UI', 'Bootstrap', 'PostgreSQL']
   }
 ];
