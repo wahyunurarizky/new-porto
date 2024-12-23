@@ -92,7 +92,7 @@ export const porto: IPorto[] = [
     name: `Dicegame Avarik Saga (2024)`,
     desc: `Developing as Frontend Developer for Dicegame project from Avarik Saga`,
     url: 'https://avariksaga.com/blessings/dicegame',
-    image: '/porto/porto-petkit.png',
+    image: '/porto/porto-dicegame.png',
     buildWith: ['NextJS', 'Tailwind', 'Web3']
   },
   {
