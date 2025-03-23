@@ -40,6 +40,16 @@ const skills: ISkill[] = [
         image: '/skills/1/solidity.png',
         level: 5,
         name: 'Solidity'
+      },
+      {
+        image: '/skills/1/rust.png',
+        level: 4,
+        name: 'Rust'
+      },
+      {
+        image: '/skills/1/go.png',
+        level: 4,
+        name: 'Go'
       }
     ]
   },
